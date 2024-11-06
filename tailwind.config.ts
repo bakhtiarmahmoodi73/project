@@ -11,6 +11,18 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        navbar: "#F8F9FA",
+      },
+      fontFamily: {
+        iranSans: "--font-iran-sans",
+        iranSansnumber: "--font-number-sans",
+      },
+      screens: {
+        'mobile': '0px',
+  
+        'tablet': '376px',
+  
+        'laptop': '835px',
       },
     },
   },
